@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  border-style: none;
+}
+table {
+  width: 800px;
+  border-spacing: 0px;
+}
+th, td{
+  text-align: start;
+  width: 200px;
+  padding: 20px;
+}
+.Table-head {
+  background-color: rgb(42, 92, 69);
+  color: white;
+}
+.Table-info2, .Table-info4 {
+  background-color: rgb(234, 234, 234);
+}

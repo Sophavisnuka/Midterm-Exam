@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80px 400px auto 250px;
+    grid-template-rows: 80px 400px auto 250px;
+  }
+  nav {
+    background-color: #343a40;
+    color: white;
+    grid-row: 1/5;
+  }
+  menu {
+    background-color: #7048e8;
+    grid-row: 1;
+    grid-column: 2/5;
+  }
+  section {
+    background-color: #e9ecef;
+    color: black;
+    grid-row: 2/5;
+  }
+  main {
+    background-color: white;
+    grid-row: 2/5;
+  }
+  aside {
+    background-color: #e9ecef;
+    grid-row: 2/5 ;
+  }
